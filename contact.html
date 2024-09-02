@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="logo">Speak To Lead<span class="dot">.</span></h1>
+        <ul class="nav-bar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3 class="contact-heading">Get in Touch</h3>
+        <form>
+          <input
+            type="text"
+            name="full-name"
+            id="name"
+            placeholder="Full Name"
+            required
+          /><br />
+          <input
+            type="email"
+            name="email-address"
+            id="email"
+            placeholder="Email Address"
+            required
+          /><br />
+          <textarea
+            rows="6"
+            name="message"
+            id="message"
+            placeholder="How can I be of help? 😊"
+          ></textarea
+          ><br />
+          <button class="send">Send</button>
+        </form>
+      </div>
+      <hr />
+      <div class="footer">
+        <p>
+          Made with ❤️ by
+          <a
+            href="https://www.linkedin.com/in/zenande-mbane-02a492166/"
+            target="_blank"
+            >Zenande Mbane</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
